@@ -126,6 +126,60 @@ BPB-Punk\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BPB-Punk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BPB-Punk.dir\build
 .PHONY : BPB-Punk\fast
 
+source\bp\gui\Button.obj: source\bp\gui\Button.cpp.obj
+
+.PHONY : source\bp\gui\Button.obj
+
+# target to build an object file
+source\bp\gui\Button.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BPB-Punk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BPB-Punk.dir\source\bp\gui\Button.cpp.obj
+.PHONY : source\bp\gui\Button.cpp.obj
+
+source\bp\gui\Button.i: source\bp\gui\Button.cpp.i
+
+.PHONY : source\bp\gui\Button.i
+
+# target to preprocess a source file
+source\bp\gui\Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BPB-Punk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BPB-Punk.dir\source\bp\gui\Button.cpp.i
+.PHONY : source\bp\gui\Button.cpp.i
+
+source\bp\gui\Button.s: source\bp\gui\Button.cpp.s
+
+.PHONY : source\bp\gui\Button.s
+
+# target to generate assembly for a file
+source\bp\gui\Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BPB-Punk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BPB-Punk.dir\source\bp\gui\Button.cpp.s
+.PHONY : source\bp\gui\Button.cpp.s
+
+source\bp\gui\Text.obj: source\bp\gui\Text.cpp.obj
+
+.PHONY : source\bp\gui\Text.obj
+
+# target to build an object file
+source\bp\gui\Text.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BPB-Punk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BPB-Punk.dir\source\bp\gui\Text.cpp.obj
+.PHONY : source\bp\gui\Text.cpp.obj
+
+source\bp\gui\Text.i: source\bp\gui\Text.cpp.i
+
+.PHONY : source\bp\gui\Text.i
+
+# target to preprocess a source file
+source\bp\gui\Text.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BPB-Punk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BPB-Punk.dir\source\bp\gui\Text.cpp.i
+.PHONY : source\bp\gui\Text.cpp.i
+
+source\bp\gui\Text.s: source\bp\gui\Text.cpp.s
+
+.PHONY : source\bp\gui\Text.s
+
+# target to generate assembly for a file
+source\bp\gui\Text.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BPB-Punk.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BPB-Punk.dir\source\bp\gui\Text.cpp.s
+.PHONY : source\bp\gui\Text.cpp.s
+
 source\main.obj: source\main.cpp.obj
 
 .PHONY : source\main.obj
@@ -162,6 +216,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... BPB-Punk
+	@echo ... source/bp/gui/Button.obj
+	@echo ... source/bp/gui/Button.i
+	@echo ... source/bp/gui/Button.s
+	@echo ... source/bp/gui/Text.obj
+	@echo ... source/bp/gui/Text.i
+	@echo ... source/bp/gui/Text.s
 	@echo ... source/main.obj
 	@echo ... source/main.i
 	@echo ... source/main.s

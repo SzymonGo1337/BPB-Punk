@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "BPB-Punk.exe.manifest"
   "BPB-Punk.lib"
   "BPB-Punk.pdb"
+  "CMakeFiles/BPB-Punk.dir/source/bp/gui/Button.cpp.obj"
+  "CMakeFiles/BPB-Punk.dir/source/bp/gui/Text.cpp.obj"
   "CMakeFiles/BPB-Punk.dir/source/main.cpp.obj"
 )
 

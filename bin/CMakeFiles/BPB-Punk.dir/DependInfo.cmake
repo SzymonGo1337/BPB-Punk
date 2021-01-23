@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/CPP/BPB-Punk/source/bp/gui/Button.cpp" "C:/CPP/BPB-Punk/bin/CMakeFiles/BPB-Punk.dir/source/bp/gui/Button.cpp.obj"
+  "C:/CPP/BPB-Punk/source/bp/gui/Text.cpp" "C:/CPP/BPB-Punk/bin/CMakeFiles/BPB-Punk.dir/source/bp/gui/Text.cpp.obj"
   "C:/CPP/BPB-Punk/source/main.cpp" "C:/CPP/BPB-Punk/bin/CMakeFiles/BPB-Punk.dir/source/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

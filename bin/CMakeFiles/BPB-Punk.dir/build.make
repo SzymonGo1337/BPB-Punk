@@ -79,14 +79,56 @@ CMakeFiles\BPB-Punk.dir\source\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\BPB-Punk.dir\source\main.cpp.s /c C:\CPP\BPB-Punk\source\main.cpp
 <<
 
+CMakeFiles\BPB-Punk.dir\source\bp\gui\Text.cpp.obj: CMakeFiles\BPB-Punk.dir\flags.make
+CMakeFiles\BPB-Punk.dir\source\bp\gui\Text.cpp.obj: ..\source\bp\gui\Text.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CPP\BPB-Punk\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BPB-Punk.dir/source/bp/gui/Text.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\BPB-Punk.dir\source\bp\gui\Text.cpp.obj /FdCMakeFiles\BPB-Punk.dir\ /FS -c C:\CPP\BPB-Punk\source\bp\gui\Text.cpp
+<<
+
+CMakeFiles\BPB-Punk.dir\source\bp\gui\Text.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BPB-Punk.dir/source/bp/gui/Text.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe > CMakeFiles\BPB-Punk.dir\source\bp\gui\Text.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\CPP\BPB-Punk\source\bp\gui\Text.cpp
+<<
+
+CMakeFiles\BPB-Punk.dir\source\bp\gui\Text.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BPB-Punk.dir/source/bp/gui/Text.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\BPB-Punk.dir\source\bp\gui\Text.cpp.s /c C:\CPP\BPB-Punk\source\bp\gui\Text.cpp
+<<
+
+CMakeFiles\BPB-Punk.dir\source\bp\gui\Button.cpp.obj: CMakeFiles\BPB-Punk.dir\flags.make
+CMakeFiles\BPB-Punk.dir\source\bp\gui\Button.cpp.obj: ..\source\bp\gui\Button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CPP\BPB-Punk\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BPB-Punk.dir/source/bp/gui/Button.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\BPB-Punk.dir\source\bp\gui\Button.cpp.obj /FdCMakeFiles\BPB-Punk.dir\ /FS -c C:\CPP\BPB-Punk\source\bp\gui\Button.cpp
+<<
+
+CMakeFiles\BPB-Punk.dir\source\bp\gui\Button.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BPB-Punk.dir/source/bp/gui/Button.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe > CMakeFiles\BPB-Punk.dir\source\bp\gui\Button.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\CPP\BPB-Punk\source\bp\gui\Button.cpp
+<<
+
+CMakeFiles\BPB-Punk.dir\source\bp\gui\Button.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BPB-Punk.dir/source/bp/gui/Button.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\BPB-Punk.dir\source\bp\gui\Button.cpp.s /c C:\CPP\BPB-Punk\source\bp\gui\Button.cpp
+<<
+
 # Object files for target BPB-Punk
 BPB__Punk_OBJECTS = \
-"CMakeFiles\BPB-Punk.dir\source\main.cpp.obj"
+"CMakeFiles\BPB-Punk.dir\source\main.cpp.obj" \
+"CMakeFiles\BPB-Punk.dir\source\bp\gui\Text.cpp.obj" \
+"CMakeFiles\BPB-Punk.dir\source\bp\gui\Button.cpp.obj"
 
 # External object files for target BPB-Punk
 BPB__Punk_EXTERNAL_OBJECTS =
 
 BPB-Punk.exe: CMakeFiles\BPB-Punk.dir\source\main.cpp.obj
+BPB-Punk.exe: CMakeFiles\BPB-Punk.dir\source\bp\gui\Text.cpp.obj
+BPB-Punk.exe: CMakeFiles\BPB-Punk.dir\source\bp\gui\Button.cpp.obj
 BPB-Punk.exe: CMakeFiles\BPB-Punk.dir\build.make
 BPB-Punk.exe: C:\Users\szymon\Documents\SFML-2.5.1\lib\sfml-graphics-s-d.lib
 BPB-Punk.exe: C:\Users\szymon\Documents\SFML-2.5.1\lib\sfml-system-s-d.lib
@@ -102,7 +144,7 @@ BPB-Punk.exe: C:\Users\szymon\Documents\SFML-2.5.1\lib\ogg.lib
 BPB-Punk.exe: C:\Users\szymon\Documents\SFML-2.5.1\lib\flac.lib
 BPB-Punk.exe: C:\Users\szymon\Documents\SFML-2.5.1\lib\sfml-system-s-d.lib
 BPB-Punk.exe: CMakeFiles\BPB-Punk.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\CPP\BPB-Punk\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BPB-Punk.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\CPP\BPB-Punk\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable BPB-Punk.exe"
 	"C:\Program Files (x86)\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\BPB-Punk.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\BPB-Punk.dir\objects1.rsp @<<
  /out:BPB-Punk.exe /implib:BPB-Punk.lib /pdb:C:\CPP\BPB-Punk\bin\BPB-Punk.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  C:\Users\szymon\Documents\SFML-2.5.1\lib\sfml-graphics-s-d.lib C:\Users\szymon\Documents\SFML-2.5.1\lib\sfml-system-s-d.lib C:\Users\szymon\Documents\SFML-2.5.1\lib\sfml-window-s-d.lib C:\Users\szymon\Documents\SFML-2.5.1\lib\sfml-audio-s-d.lib C:\Users\szymon\Documents\SFML-2.5.1\lib\sfml-network-s-d.lib gdi32.lib OpenGL32.lib C:\Users\szymon\Documents\SFML-2.5.1\lib\freetype.lib C:\Users\szymon\Documents\SFML-2.5.1\lib\openal32.lib C:\Users\szymon\Documents\SFML-2.5.1\lib\vorbisfile.lib C:\Users\szymon\Documents\SFML-2.5.1\lib\vorbisenc.lib C:\Users\szymon\Documents\SFML-2.5.1\lib\vorbis.lib C:\Users\szymon\Documents\SFML-2.5.1\lib\ogg.lib C:\Users\szymon\Documents\SFML-2.5.1\lib\flac.lib C:\Users\szymon\Documents\SFML-2.5.1\lib\sfml-system-s-d.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
